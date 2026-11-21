@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Blog Website</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #ffffff; margin: 0; }
+    .container { max-width: 900px; margin: 40px auto; padding: 20px; background: #ffffff; border-radius: 8px; }
+    .blog-list { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+    .blog-item { background: #ffffff; border-radius: 8px; box-shadow: 0 2px 8px rgba(230, 7, 7, 0.05); padding: 16px; }
+    .blog-item img { width: 100%; height: 180px; object-fit: cover; border-radius: 6px; }
+    .blog-item h2 { margin: 12px 0 8px; }
+    .blog-item p { margin: 0 0 12px; }
+    .blog-item a { color: #2a13f7; text-decoration: none; font-weight: bold; }
+    .blog-item a:hover { transition: color 0.3s ease; color: #e41111; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>MY PERSONAL BLOG WEBSITE</h1>
+    <div class="blog-list">
+      <div class="blog-item">
+        <img src="images/travel.jpg" alt="Travel" style="border: 6px dashed rgb(192, 21, 21);">
+        <h2>Travel Adventures</h2>
+        <p>Discover amazing places around the world and tips for your next journey.</p>
+        <a href="travel.html">Read More</a>
+      </div>
+      <div class="blog-item">
+        <img src="images/food.jpg" alt="Food" style="border: 6px dashed rgb(192, 21, 21);">
+        <h2>Delicious Food</h2>
+        <p>Explore recipes, restaurant reviews, and culinary experiences.</p>
+        <a href="food.html">Read More</a>t
+      </div>
+      <div class="blog-item">
+        <img src="images\tech.jpg" alt="Technology" style="border: 6px dashed rgb(192, 21, 21);">
+        <h2>Tech Trends</h2>
+        <p>Stay updated with the latest in technology and gadgets.</p>
+        <a href="tech.html">Read More</a>
+      </div>
+      <div class="blog-item">
+        <img src="images\fitness.jpg" alt="Fitness" style="border: 6px dashed rgb(192, 21, 21);">
+        <h2>Fitness & Health</h2>
+        <p>Tips and guides for a healthy and active lifestyle.</p>
+        <a href="fitness.html">Read More</a>
+      </div>
+    </div>
+</body>
+</html>
